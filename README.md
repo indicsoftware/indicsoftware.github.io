@@ -42,3 +42,5 @@ To test the website locally:
 - This is a static mirror of a CMS-based website
 - Forms and dynamic features require backend services to function
 - The site uses a `.nojekyll` file to bypass Jekyll processing on GitHub Pages
+- Google Fonts are now loaded directly from the Google CDN instead of local copies
+- The directories `/fonts.googleapis.com/` and `/fonts.gstatic.com/` contain legacy local font files that can be removed if desired
