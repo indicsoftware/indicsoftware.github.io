@@ -39,8 +39,8 @@ To test the website locally:
 
 ## Notes
 
-- This is a static mirror of a CMS-based website
-- Forms and dynamic features require backend services to function
+- This site started as a static export from a Squarespace CMS, which has since been retired. The HTML files in this repo are now the source of truth and are edited directly.
+- Forms and dynamic features inherited from the original CMS are non-functional without backend services.
 - The site uses a `.nojekyll` file to bypass Jekyll processing on GitHub Pages
 - Google Fonts are now loaded directly from the Google CDN instead of local copies
 - The directories `/fonts.googleapis.com/` and `/fonts.gstatic.com/` contain legacy local font files that can be removed if desired

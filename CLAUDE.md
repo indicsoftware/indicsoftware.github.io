@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a static GitHub Pages website for Indic Software Solutions, a web design and development shop. The site appears to be a static mirror of a CMS-based website (likely Squarespace), converted for hosting on GitHub Pages.
+This is the GitHub Pages website for Indic Software Solutions, a web design and development shop. It started as a static export from a Squarespace CMS (the business was previously called Zenmind Studio). The CMS has since been retired — the HTML files in this repo are now the source of truth and are edited directly.
 
 ## Architecture
 
@@ -41,6 +41,6 @@ Then visit http://localhost:8000
 
 ## Important Notes
 
-- This is a read-only static site - dynamic CMS features are not functional
-- When making changes, preserve the existing URL-encoded filename format
-- The site structure should match the original CMS paths for proper routing
+- The Squarespace CMS that originally generated these files is retired. Edits go directly into the HTML files in this repo; there is no re-export step that would clobber them.
+- Dynamic features (forms, comments, cart) inherited from the CMS export are non-functional without a backend.
+- When making changes, preserve the existing URL-encoded filename format (e.g., `﹖` U+FE56 for `?`) so existing inbound links keep resolving.
